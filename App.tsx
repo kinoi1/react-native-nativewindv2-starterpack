@@ -1,11 +1,11 @@
-import { ScreenContent } from 'components/ScreenContent';
-import { StatusBar } from 'expo-status-bar';
+import { View, Text } from "react-native";
 
 export default function App() {
   return (
-    <>
-      <ScreenContent title="Home" path="App.tsx"></ScreenContent>
-      <StatusBar style="auto" />
-    </>
+    <View className='bg-blue-500'>
+      <Text className='font-extrabold p-2'>
+        hello ini dari nativewind v2
+      </Text>
+    </View>
   );
 }
